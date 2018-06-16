@@ -1,0 +1,23 @@
+## server side
+#+BEGIN_SRC sh
+  pip install -r requirements.txt
+  #virtual env
+  python -m venv env
+  source env/bin/activate
+#+END_SRC
+
+## cliet side
+#+BEGIN_SRC sh
+  # install dependencies
+  npm install
+
+  # serve with hot reload at localhost:8080
+  npm run dev
+
+  # build for production with minification
+  npm run build
+
+  # build for production and view the bundle analyzer report
+  npm run build --report
+#+END_SRC
+
